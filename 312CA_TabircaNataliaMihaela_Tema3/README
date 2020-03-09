@@ -1,0 +1,24 @@
+Tabirca Natalia-Mihaela
+In rezolvarea problemei am folosit 2 structuri, una pentru matricea ghetarului 
+si una pentru elfi. Alocarea spatiului pentru acestea a fost facuta dinamic. 
+Lucrez cu dimensiunea totala a matricei, n = 2 * r + 1.
+Rezolvarea comenzilor:
+  MOVE:
+Functia directions face mutarea pe o directie, impreuna cu verificarea cazului 
+in care are loc o lupta. Pentru a decide castigatorul, am scazut prima oara dmg 
+din hp-ul celui cu stamina mai mica, apoi am gasit regula prin care unul sau 
+altul castiga. Cel care pierde, are statusul 0 ( WET ). Mutarile pe directii au
+loc cat timp cel care inainteaza are statusul 1 si se afla in interiorul
+ghetarului.
+  PRINT_SCOREBOARD:
+Copiez toate deteliile spiridusilor intr-o alta variabila de tipul struct elf* 
+pe care le sortez dupa status, apoi numar de eliminari si in cele din urma 
+alfabetic.
+  MELTDOWN:
+Mut toti spiridusii pe noile pozitii, verific daca exista spiridusi care ies 
+din joc apoi mut toate elementele matricei ghetar de pe pozitia (i + 1, j + 1)
+pe pozitia (i, j). scad valoarea lui n cu 2.
+  SNOWSTORM:
+Prin comparari pe biti gasesc cele 4 numere necesare mutarii, verific daca 
+vreun spiridus se afla in raza de atac si scad valoarea DMG. verific daca ies
+spiridusi din joc.

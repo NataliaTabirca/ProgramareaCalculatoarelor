@@ -1,0 +1,13 @@
+Problema1 - Histograme
+
+
+Am citit pe rand fiecare linie din input si am copiat codul in variabila corespunzatoare. Calculez scala si o mut in variabila aferenta codului.
+
+Pentru afisarea unei linii, intr-o structura repetitiva cu numar finit de pasi, am folosit o functie al carui rol este de a afisa fie ".", fie "*", in functie de valoarea scalei in raport cu iteratorul i (i=nivelul de afisare a graficului histogramelor). 
+
+Afisarea histogramei se face in functia afisare si utilizeaza functia afis, iar afisarea codurilor, in functia afisare_cod.
+Observand ca la finalul randurilor nu se afiseaza spatiu, am apelat la o variabila nn = n-1 (n = numarul initial de seriale vizualizate) pe care dupa fiecare afisare o micsorez cu o  unitate.  
+
+Problema2 - Statistici
+
+Citesc element cu element toti termenii. Pe primul il citesc separat, apoi il adaug in suma, produs, suma inverselor si suma patratelor. Citesc noua valoare si o compar cu precedenta pentru a verifica daca face perte dintr-o secventa crescatoare. Pentru ca citesc noua valoare la final, mai adaug o data in sumele corespunzatoare ultima valoare citita care nu a fost adaugata la pasii precedenti. Calculez mediile date si verific daca exisa media aritmetica. Abaterera standard se calculeaza prin desfacerea parantezelor si gruparea termenilor.

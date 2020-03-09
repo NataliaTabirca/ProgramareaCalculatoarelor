@@ -1,0 +1,5 @@
+	La citire verific miscarea valida. In cazul in care incepe jucatorul 0, afisez mesajul de eroare pana in momentul in care se ajune la jucatorul X. acest lucru este realizat prin intermediul unei instructiuni de tip while la finalul careia se incepe validarea miscarilor.
+	In timpul completarii tablei de miniboard-uri, calculez si valoarea corespunzatoare din macroboard. 
+	Completarea automata reprezinta algoritmul de completare pe diagonala la care se adauga recalcularea macroboard-ului.
+	Printr-o functie separata afisez macroboard-ul si verific castigatorul printr-un algoritm similar cu cel al castigatorului de miniboard, dar in plus numar de cate ori castiga fiecare o linie, coloana sau diagonala. Castigatorul va fi cel care are cele mai multe linii/coloane/diagonale complete.
+	Pentru task-ul 3 coeficientul de atentie este calcculat pe parcurs prin incrementarea unor valori pe parcursul task-ului 1.
